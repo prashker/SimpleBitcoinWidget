@@ -2,8 +2,8 @@ package com.brentpanther.brentpanther;
 
 import android.content.res.Resources;
 import android.text.TextUtils;
-import com.brentpanther.bitcoinwidget.BTCProvider;
-import com.brentpanther.bitcoinwidget.BuildConfig;
+import com.samuelprashker.altcoinwidget.BTCProvider;
+import com.samuelprashker.altcoinwidget.BuildConfig;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;

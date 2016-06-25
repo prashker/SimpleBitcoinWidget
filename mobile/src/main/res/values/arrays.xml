@@ -307,6 +307,12 @@
     <string-array name="currencies_uphold">
         <item>USD</item>
     </string-array>
+    <string-array name="currencies_krakeneth">
+        <item>USD</item>
+        <item>CAD</item>
+        <item>EUR</item>
+        <item>XBT</item>
+    </string-array>
     <string-array name="providerValues">
         <item>12</item>
         <item>29</item>
@@ -349,6 +355,7 @@
 
         <item>24</item>
         <item>14</item>
+        <item>48</item>
         <item>18</item>
         <item>19</item>
         <item>6</item>
@@ -403,6 +410,7 @@
 
         <item>Korbit</item>
         <item>Kraken</item>
+        <item>Kraken (ETH)</item>
         <item>KunaBTC</item>
         <item>LakeBTC</item>
         <item>Mercado Bitcoin</item>
