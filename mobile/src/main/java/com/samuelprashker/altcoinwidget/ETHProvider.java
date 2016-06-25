@@ -20,8 +20,13 @@ public enum ETHProvider implements AltcoinInterface {
             String url = "https://api.kraken.com/0/public/Ticker?pair=ETH%s";
             String key = String.format("XETHZ%s", currencyCode);
             JSONObject obj = RemoteHelper.getJSONObject(String.format(url, currencyCode));
-            JSONObject obj2 = obj.getJSONObject("result").getJSONObject(key);
-            return (String)obj2.getJSONArray("c").get(0);
+            JSONObject obj2 = obj.getJSONObject("result");
+
+            // May be problematic but I don't get the XETHZUSD format
+            // SO just assume there's only 1 key
+            String innerkey = obj2.keys().next();
+
+            return (String)obj2.getJSONObject(innerkey).getJSONArray("c").get(0);
         }
     },
     POLONIEX(R.array.currencies_poloeth, "poloeth") {

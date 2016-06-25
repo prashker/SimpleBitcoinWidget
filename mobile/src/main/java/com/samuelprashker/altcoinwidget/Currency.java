@@ -32,9 +32,11 @@ public enum Currency {
     KRW("₩ #,###", "₩ #,###"),
     INR("\u20B9#,###", "\u20B9#,###"),
     IDR("LP#,###,###", "LP#,###,###"),
-    BTC("XBT #.######", "XBT #.###");
+    BTC("XBT #.######", "XBT #.###"),
+    XBT("XBT #.######", "XBT #.###");
 
-	String format;
+
+    String format;
     String thousandFormat;
     String tenThousandFormat;
 
