@@ -10,10 +10,18 @@
         android:persistent="false"
         android:title="@string/title_refresh_interval" />
     <ListPreference
+        android:defaultValue="@string/default_coin"
+        android:dialogTitle="@string/title_provider"
+        android:entries="@array/coins"
+        android:entryValues="@array/coinValues"
+        android:key="@string/key_coin"
+        android:persistent="false"
+        android:title="@string/title_coin" />
+    <ListPreference
         android:defaultValue="@string/default_provider"
         android:dialogTitle="@string/title_provider"
-        android:entries="@array/providers"
-        android:entryValues="@array/providerValues"
+        android:entries="@array/providers_btc"
+        android:entryValues="@array/providerValues_btc"
         android:key="@string/key_provider"
         android:persistent="false"
         android:title="@string/title_provider" />

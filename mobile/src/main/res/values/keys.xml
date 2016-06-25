@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="key_refresh_interval">update_interval</string>
+    <string name="key_coin">coin</string>
     <string name="key_currency">currency</string>
     <string name="key_last_update">last_update</string>
     <string name="key_prefs">bitcoinwidget</string>
@@ -12,6 +13,7 @@
     <string name="key_icon">icon</string>
     <string name="default_refresh_interval">10</string>
     <string name="default_currency">USD</string>
+    <string name="default_coin">0</string>
     <string name="default_provider">1</string>
     <string name="default_theme">Light</string>
 </resources>

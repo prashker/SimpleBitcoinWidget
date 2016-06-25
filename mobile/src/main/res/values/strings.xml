@@ -3,6 +3,7 @@
     <string name="app_name">Simple Altcoin Widget</string>
     <string name="loading">...</string>
     <string name="title_refresh_interval">Refresh Interval</string>
+    <string name="title_coin">Altcoin (???)</string>
     <string name="title_currency">Currency</string>
     <string name="title_provider">Exchange</string>
     <string name="title_label">Show exchange label</string>
@@ -18,6 +19,7 @@
         <item quantity="one">Every hour</item>
         <item quantity="other">Every %d hours</item>
     </plurals>
+    <string name="summary_coin">Altcoin: %s</string>
     <string name="summary_currency">Use %s as currency</string>
     <string name="blank_currency">Select a currency</string>
     <string name="summary_provider">Get data from %s</string>

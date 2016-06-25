@@ -307,13 +307,18 @@
     <string-array name="currencies_uphold">
         <item>USD</item>
     </string-array>
-    <string-array name="currencies_krakeneth">
+    <string-array name="currencies_krkneth">
         <item>USD</item>
         <item>CAD</item>
         <item>EUR</item>
         <item>XBT</item>
     </string-array>
-    <string-array name="providerValues">
+    <string-array name="currencies_poloeth">
+        <item>USDT</item>
+        <item>BTC</item>
+    </string-array>
+
+    <string-array name="providerValues_btc">
         <item>12</item>
         <item>29</item>
         <item>3</item>
@@ -355,7 +360,6 @@
 
         <item>24</item>
         <item>14</item>
-        <item>48</item>
         <item>18</item>
         <item>19</item>
         <item>6</item>
@@ -368,7 +372,7 @@
 
         <item>27</item>
     </string-array>
-    <string-array name="providers">
+    <string-array name="providers_btc">
         <item>Bit2C</item>
         <item>BitBay</item>
         <item>Bitcoin Average</item>
@@ -410,7 +414,6 @@
 
         <item>Korbit</item>
         <item>Kraken</item>
-        <item>Kraken (ETH)</item>
         <item>KunaBTC</item>
         <item>LakeBTC</item>
         <item>Mercado Bitcoin</item>
@@ -423,6 +426,30 @@
 
         <item>Zyado</item>
     </string-array>
+
+    <string-array name="providerValues_eth">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="providers_eth">
+        <item>Kraken</item>
+        <item>Poloniex</item>
+    </string-array>
+
+
+
+
+    <string-array name="coinValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="coins">
+        <item>Bitcoin</item>
+        <item>Ethereum</item>
+    </string-array>
+
+
     <string-array name="themes">
         <item>Light</item>
         <item>Dark</item>
