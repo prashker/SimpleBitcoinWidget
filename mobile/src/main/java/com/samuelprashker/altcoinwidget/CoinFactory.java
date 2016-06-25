@@ -38,4 +38,15 @@ public class CoinFactory {
         }
         return -1;
     }
+
+    public static int getResourceFromDrawable(String key) {
+        try {
+            return R.drawable.class.getField(key).getInt(null);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
 }

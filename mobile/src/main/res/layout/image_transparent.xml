@@ -11,24 +11,13 @@
               android:gravity="center">
 
     <ImageView
-            android:visibility="gone"
-            android:id="@+id/bitcoinImage"
-            android:layout_width="28dp"
-            android:layout_marginTop="3dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:src="@drawable/icon_bitcoin"/>
-
-    <ImageView
-            android:visibility="gone"
-            android:id="@+id/bitcoinImageBW"
-            android:layout_height="0dp"
-            android:layout_width="28dp"
-            android:layout_weight="1"
-            android:layout_marginTop="3dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/icon_bitcoin_bw"/>
+        android:visibility="gone"
+        android:id="@+id/coinImage"
+        android:layout_width="28dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true" />
 
     <TextView
             android:id="@+id/space"
