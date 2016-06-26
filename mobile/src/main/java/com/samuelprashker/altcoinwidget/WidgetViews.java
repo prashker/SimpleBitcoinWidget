@@ -83,6 +83,10 @@ public class WidgetViews {
 
         int image_id_dynamic = CoinFactory.getResourceFromDrawable(image_resource);
 
+        // Fallback if we didn't implement the specific style images
+        if (image_id_dynamic == -1)
+            image_id_dynamic = CoinFactory.getResourceFromDrawable("icon_" + key);
+
         // Regardless, change image ID
         changeImage(views, R.id.coinImage, image_id_dynamic);
 
