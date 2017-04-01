@@ -430,14 +430,13 @@
     <string-array name="providerValues_eth">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="providers_eth">
         <item>Kraken</item>
         <item>Poloniex</item>
+        <item>QuadrigaCX</item>
     </string-array>
-
-
-
 
     <string-array name="coinValues">
         <item>0</item>

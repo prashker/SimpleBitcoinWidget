@@ -39,6 +39,13 @@ public enum ETHProvider implements AltcoinInterface {
             String result = obj.getJSONObject(key).getString("last");
             return result;
         }
+    },
+    QUADRIGA(R.array.currencies_quadriga, "qdrga") {
+        @Override
+        public String getValue(String currencyCode) throws Exception {
+            String url = "https://api.quadrigacx.com/v2/ticker?book=ETH_%s";
+            return RemoteHelper.getJSONObject(String.format(url, currencyCode)).getString("last");
+        }
     };
 
     private final int currencyArrayID;
